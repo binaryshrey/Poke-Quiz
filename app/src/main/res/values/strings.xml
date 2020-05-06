@@ -4,5 +4,19 @@
     <string name="ABND">Android Basics Nanodegree</string>
     <string name="info">Gotta answer \'em all</string>
     <string name="get_started">Get Started</string>
+
+    <string name="correct">Correct answer !</string>
+    <string name="wrong1">Wrong ans (Grass)!</string>
+    <string name="question1">What type of pokemon is Lotad ?</string>
+    <string name="fire">Fire</string>
+    <string name="water">Water</string>
+    <string name="grass">Grass</string>
+    <string name="electric">Electric</string>
+    <string name="submit">Submit</string>
+    <string name="finish">Finish</string>
+
+
+
+
 </resources>
 
