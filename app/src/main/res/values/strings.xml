@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">PokeQuiz</string>
+    <string name="app_name">Poke Quiz</string>
+    <string name="tagline">Udacity Quiz app</string>
+    <string name="ABND">Android Basics Nanodegree</string>
+    <string name="info">Gotta answer \'em all</string>
+    <string name="get_started">Get Started</string>
 </resources>
+
