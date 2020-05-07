@@ -8,6 +8,7 @@
     <string name="correct">Correct answer !</string>
     <string name="wrong1">Wrong - Correct answer : Water/Grass </string>
     <string name="question1">What type of pokemon is Lotad ?</string>
+    <string name="bug">Bug</string>
     <string name="fire">Fire</string>
     <string name="water">Water</string>
     <string name="grass">Grass</string>
@@ -23,7 +24,15 @@
     <string name="eevee">Eevee</string>
     <string name="jolteon">Jolteon</string>
 
+    <string name="question3">What type of pokemon is Mudkip ?</string>
+    <string name="wrong3">Wrong - Correct answer : Water</string>
 
+    <string name="question4">Can you identify this pokemon ?</string>
+    <string name="wrong4">Wrong - Correct answer : Lugia</string>
+    <string name="guess">Guess it</string>
+
+    <string name="question5">What type of pokemon is Beedrill ?</string>
+    <string name="wrong5">Wrong - Correct answer : Bug</string>
 
 
 </resources>
