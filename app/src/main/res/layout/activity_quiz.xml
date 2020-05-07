@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QuizActivity">
+    tools:context=".QuizActivity"
+    android:background="@color/colorWhite">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -25,8 +26,7 @@
                 android:background="@color/colorWhite"
                 card_view:cardBackgroundColor="@color/colorWhite"
                 card_view:cardCornerRadius="10dp"
-                card_view:cardElevation="2dp"
-                card_view:cardUseCompatPadding="false">
+                card_view:cardElevation="0dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -37,7 +37,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="240dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/lotad" />
+                        android:src="@mipmap/lotad" />
 
                     <TextView
                         android:id="@+id/correct_q1"
@@ -47,7 +47,8 @@
                         android:layout_margin="8dp"
                         android:text="@string/correct"
                         android:textColor="@color/colorGreen"
-                        android:visibility="invisible" />
+                        android:visibility="invisible"
+                        android:textSize="16sp"/>
 
                     <TextView
                         android:id="@+id/wrong_q1"
@@ -57,7 +58,8 @@
                         android:layout_margin="8dp"
                         android:text="@string/wrong1"
                         android:textColor="@color/colorRed"
-                        android:visibility="invisible" />
+                        android:visibility="invisible"
+                        android:textSize="16sp"/>
 
                     <TextView
                         android:id="@+id/q1"
@@ -67,7 +69,8 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_marginBottom="8dp"
-                        android:text="@string/question1" />
+                        android:text="@string/question1"
+                        android:textSize="16sp"/>
 
                     <CheckBox
                         android:id="@+id/CB1"
@@ -127,8 +130,7 @@
                 android:background="@color/colorWhite"
                 card_view:cardBackgroundColor="@color/colorWhite"
                 card_view:cardCornerRadius="10dp"
-                card_view:cardElevation="2dp"
-                card_view:cardUseCompatPadding="false">
+                card_view:cardElevation="0dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -139,7 +141,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="240dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/vaporeon" />
+                        android:src="@mipmap/vaporeon" />
 
                     <TextView
                         android:id="@+id/correct_q2"
@@ -149,7 +151,8 @@
                         android:layout_margin="8dp"
                         android:text="@string/correct"
                         android:textColor="@color/colorGreen"
-                        android:visibility="invisible" />
+                        android:visibility="invisible"
+                        android:textSize="16sp"/>
 
                     <TextView
                         android:id="@+id/wrong_q2"
@@ -159,7 +162,8 @@
                         android:layout_margin="8dp"
                         android:text="@string/wrong2"
                         android:textColor="@color/colorRed"
-                        android:visibility="invisible" />
+                        android:visibility="invisible"
+                        android:textSize="16sp"/>
 
                     <TextView
                         android:id="@+id/q2"
@@ -169,7 +173,8 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_marginBottom="8dp"
-                        android:text="@string/question2" />
+                        android:text="@string/question2"
+                        android:textSize="16sp"/>
 
                     <RadioGroup
                         android:id="@+id/radioGroup1"
@@ -237,8 +242,7 @@
                 android:background="@color/colorWhite"
                 card_view:cardBackgroundColor="@color/colorWhite"
                 card_view:cardCornerRadius="10dp"
-                card_view:cardElevation="2dp"
-                card_view:cardUseCompatPadding="false">
+                card_view:cardElevation="0dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -249,7 +253,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="240dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/mudkip" />
+                        android:src="@mipmap/mudkip" />
 
                     <TextView
                         android:id="@+id/correct_q3"
@@ -259,7 +263,8 @@
                         android:layout_margin="8dp"
                         android:text="@string/correct"
                         android:textColor="@color/colorGreen"
-                        android:visibility="invisible" />
+                        android:visibility="invisible"
+                        android:textSize="16sp"/>
 
                     <TextView
                         android:id="@+id/wrong_q3"
@@ -269,7 +274,8 @@
                         android:layout_margin="8dp"
                         android:text="@string/wrong3"
                         android:textColor="@color/colorRed"
-                        android:visibility="invisible" />
+                        android:visibility="invisible"
+                        android:textSize="16sp"/>
 
                     <TextView
                         android:id="@+id/q3"
@@ -279,7 +285,8 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_marginBottom="8dp"
-                        android:text="@string/question3" />
+                        android:text="@string/question3"
+                        android:textSize="16sp"/>
 
                     <RadioGroup
                         android:id="@+id/radioGroup2"
@@ -346,8 +353,7 @@
                 android:background="@color/colorWhite"
                 card_view:cardBackgroundColor="@color/colorWhite"
                 card_view:cardCornerRadius="10dp"
-                card_view:cardElevation="2dp"
-                card_view:cardUseCompatPadding="false">
+                card_view:cardElevation="0dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -358,7 +364,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="240dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/guess" />
+                        android:src="@mipmap/question_4" />
 
                     <TextView
                         android:id="@+id/correct_q4"
@@ -368,7 +374,8 @@
                         android:layout_margin="8dp"
                         android:text="@string/correct"
                         android:textColor="@color/colorGreen"
-                        android:visibility="invisible" />
+                        android:visibility="invisible"
+                        android:textSize="16sp"/>
 
                     <TextView
                         android:id="@+id/wrong_q4"
@@ -378,7 +385,8 @@
                         android:layout_margin="8dp"
                         android:text="@string/wrong4"
                         android:textColor="@color/colorRed"
-                        android:visibility="invisible" />
+                        android:visibility="invisible"
+                        android:textSize="16sp"/>
 
                     <TextView
                         android:id="@+id/q4"
@@ -388,22 +396,41 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_marginBottom="8dp"
-                        android:text="@string/question4" />
+                        android:text="@string/question4"
+                        android:textSize="16sp"/>
 
-                    <EditText
-                        android:id="@+id/enter_q4"
-                        android:layout_width="match_parent"
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/input"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
                         android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_below="@id/q4"
-                        android:hint="@string/guess"
-                        android:inputType="textCapWords"
-                        android:maxLines="1" />
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+
+                        <EditText
+                            android:id="@+id/enter_q4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/guess"
+                            android:textColorHint="@color/colorBlack"
+                            android:inputType="textCapWords"
+                            android:maxLines="1" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/Submit_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/enter_q4"
+                        android:layout_below="@+id/input"
                         android:layout_centerHorizontal="true"
                         android:backgroundTint="@color/colorPrimaryDark"
                         android:text="@string/submit" />
@@ -428,8 +455,7 @@
                 android:background="@color/colorWhite"
                 card_view:cardBackgroundColor="@color/colorWhite"
                 card_view:cardCornerRadius="10dp"
-                card_view:cardElevation="2dp"
-                card_view:cardUseCompatPadding="false">
+                card_view:cardElevation="0dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -440,7 +466,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="240dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/beedribs" />
+                        android:src="@mipmap/beedribs" />
 
                     <TextView
                         android:id="@+id/correct_q5"
@@ -450,7 +476,8 @@
                         android:layout_margin="8dp"
                         android:text="@string/correct"
                         android:textColor="@color/colorGreen"
-                        android:visibility="invisible" />
+                        android:visibility="invisible"
+                        android:textSize="16sp"/>
 
                     <TextView
                         android:id="@+id/wrong_q5"
@@ -460,7 +487,8 @@
                         android:layout_margin="8dp"
                         android:text="@string/wrong5"
                         android:textColor="@color/colorRed"
-                        android:visibility="invisible" />
+                        android:visibility="invisible"
+                        android:textSize="16sp"/>
 
                     <TextView
                         android:id="@+id/q5"
@@ -470,7 +498,8 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_marginBottom="8dp"
-                        android:text="@string/question5" />
+                        android:text="@string/question5"
+                        android:textSize="16sp"/>
 
                     <RadioGroup
                         android:id="@+id/radioGroup3"
@@ -521,16 +550,15 @@
             </androidx.cardview.widget.CardView>
         </LinearLayout>
 
-
-                <com.google.android.material.button.MaterialButton
-                    android:layout_alignParentBottom="true"
-                    android:id="@+id/Finish"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/q5_header"
-                    android:layout_centerHorizontal="true"
-                    android:backgroundTint="@color/colorPrimaryDark"
-                    android:text="@string/finish" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Finish"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/q5_header"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="@string/finish" />
 
     </RelativeLayout>
 

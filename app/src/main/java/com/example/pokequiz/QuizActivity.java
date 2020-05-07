@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -61,6 +62,8 @@ public class QuizActivity extends AppCompatActivity {
     TextView mCorrectQ4;
     @BindView(R.id.wrong_q4)
     TextView mWrongQ4;
+    @BindView(R.id.thumb_q4)
+    ImageView mImageview;
 
     @BindView(R.id.Submit_5)
     Button mButton5;
@@ -137,8 +140,10 @@ public class QuizActivity extends AppCompatActivity {
                     score+=1;
                     mCorrectQ4.setVisibility(View.VISIBLE);
                 }
-                else
+                else {
                     mWrongQ4.setVisibility(View.VISIBLE);
+                }
+                mImageview.setImageResource(R.mipmap.answer_4);
                 mButton4.setEnabled(false);
             }
         });
