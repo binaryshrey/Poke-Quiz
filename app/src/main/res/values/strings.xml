@@ -6,7 +6,7 @@
     <string name="get_started">Get Started</string>
 
     <string name="correct">Correct answer !</string>
-    <string name="wrong1">Wrong ans (Grass)!</string>
+    <string name="wrong1">Wrong - Correct answer : Water/Grass </string>
     <string name="question1">What type of pokemon is Lotad ?</string>
     <string name="fire">Fire</string>
     <string name="water">Water</string>
@@ -14,6 +14,14 @@
     <string name="electric">Electric</string>
     <string name="submit">Submit</string>
     <string name="finish">Finish</string>
+
+
+    <string name="question2">From which pokemon does Vaporeon evolve ?</string>
+    <string name="wrong2">Wrong - Correct answer : Eevee</string>
+    <string name="magikarp">Magikarp</string>
+    <string name="squirtle">Squirtle</string>
+    <string name="eevee">Eevee</string>
+    <string name="jolteon">Jolteon</string>
 
 
 

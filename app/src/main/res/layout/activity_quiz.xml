@@ -8,7 +8,7 @@
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <LinearLayout
@@ -33,7 +33,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:id="@+id/logo"
+                        android:id="@+id/thumb_q1"
                         android:layout_width="match_parent"
                         android:layout_height="240dp"
                         android:scaleType="centerCrop"
@@ -43,7 +43,7 @@
                         android:id="@+id/correct_q1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/logo"
+                        android:layout_below="@+id/thumb_q1"
                         android:layout_margin="8dp"
                         android:text="@string/correct"
                         android:textColor="@color/colorGreen"
@@ -53,7 +53,7 @@
                         android:id="@+id/wrong_q1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/logo"
+                        android:layout_below="@+id/thumb_q1"
                         android:layout_margin="8dp"
                         android:text="@string/wrong1"
                         android:textColor="@color/colorRed"
@@ -69,11 +69,110 @@
                         android:layout_marginBottom="8dp"
                         android:text="@string/question1" />
 
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/q1"
+                        android:text="@string/fire"
+                        android:id="@+id/CB1"/>
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/CB1"
+                        android:text="@string/water"
+                        android:id="@+id/CB2"/>
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/CB2"
+                        android:text="@string/grass"
+                        android:id="@+id/CB3"/>
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/CB3"
+                        android:text="@string/electric"
+                        android:id="@+id/CB4"/>
+
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/Submit_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/CB4"
+                        android:layout_centerHorizontal="true"
+                        android:backgroundTint="@color/colorPrimaryDark"
+                        android:text="@string/submit" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/q2_header"
+            android:layout_below="@+id/q1_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorWhite"
+                card_view:cardBackgroundColor="@color/colorWhite"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="2dp"
+                card_view:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/thumb_q2"
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/vaporeon" />
+
+                    <TextView
+                        android:id="@+id/correct_q2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/thumb_q2"
+                        android:layout_margin="8dp"
+                        android:text="@string/correct"
+                        android:textColor="@color/colorGreen"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/wrong_q2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/thumb_q2"
+                        android:layout_margin="8dp"
+                        android:text="@string/wrong2"
+                        android:textColor="@color/colorRed"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/q2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/correct_q2"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/question2" />
+
                     <RadioGroup
                         android:id="@+id/radioGroup1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/q1"
+                        android:layout_below="@id/q2"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_marginBottom="8dp"
@@ -83,30 +182,32 @@
                             android:id="@+id/rb1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/fire" />
+                            android:text="@string/magikarp" />
 
                         <RadioButton
                             android:id="@+id/rb2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/water" />
+                            android:text="@string/squirtle" />
 
                         <RadioButton
                             android:id="@+id/rb3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/grass" />
+                            android:text="@string/eevee" />
 
                         <RadioButton
                             android:id="@+id/rb4"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/electric" />
+                            android:text="@string/jolteon" />
 
                     </RadioGroup>
 
+
+
                     <com.google.android.material.button.MaterialButton
-                        android:id="@+id/Submit_1"
+                        android:id="@+id/Submit_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/radioGroup1"
@@ -119,14 +220,24 @@
             </androidx.cardview.widget.CardView>
         </LinearLayout>
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/Finish"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/q1_header"
-            android:layout_centerHorizontal="true"
-            android:backgroundTint="@color/colorPrimaryDark"
-            android:text="@string/finish" />
+
+
+
+
+
+
+
+
+
+
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:id="@+id/Finish"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/q1_header"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:backgroundTint="@color/colorPrimaryDark"-->
+<!--            android:text="@string/finish" />-->
 
     </RelativeLayout>
 
