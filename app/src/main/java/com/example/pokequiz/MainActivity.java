@@ -13,25 +13,27 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
+    //data members
     @BindView(R.id.get_started)
     Button mButton;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //using butterknife for binding views
         ButterKnife.bind(this);
 
+        //setOnClickListener on get-started button
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //Toast.makeText(MainActivity.this, "Get Started", Toast.LENGTH_SHORT).show();
+                //opening quiz-activity
                 Intent intent = new Intent(MainActivity.this,QuizActivity.class);
                 startActivity(intent);
             }
         });
-
     }
 }
