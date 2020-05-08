@@ -73,43 +73,42 @@
                         android:textSize="16sp"/>
 
                     <CheckBox
-                        android:id="@+id/CB1"
+                        android:id="@+id/mCB1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/q1"
                         android:text="@string/fire" />
 
                     <CheckBox
-                        android:id="@+id/CB2"
+                        android:id="@+id/mCB2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/CB1"
+                        android:layout_below="@id/mCB1"
                         android:text="@string/water" />
 
                     <CheckBox
-                        android:id="@+id/CB3"
+                        android:id="@+id/mCB3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/CB2"
+                        android:layout_below="@id/mCB2"
                         android:text="@string/grass" />
 
                     <CheckBox
-                        android:id="@+id/CB4"
+                        android:id="@+id/mCB4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/CB3"
+                        android:layout_below="@id/mCB3"
                         android:text="@string/electric" />
 
 
                     <com.google.android.material.button.MaterialButton
-                        android:id="@+id/Submit_1"
+                        android:id="@+id/submit_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/CB4"
+                        android:layout_below="@+id/mCB4"
                         android:layout_centerHorizontal="true"
                         android:backgroundTint="@color/colorPrimaryDark"
                         android:text="@string/submit" />
-
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -212,16 +211,14 @@
 
                     </RadioGroup>
 
-
                     <com.google.android.material.button.MaterialButton
-                        android:id="@+id/Submit_2"
+                        android:id="@+id/submit_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/radioGroup1"
                         android:layout_centerHorizontal="true"
                         android:backgroundTint="@color/colorPrimaryDark"
                         android:text="@string/submit" />
-
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -325,14 +322,13 @@
                     </RadioGroup>
 
                     <com.google.android.material.button.MaterialButton
-                        android:id="@+id/Submit_3"
+                        android:id="@+id/submit_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/radioGroup2"
                         android:layout_centerHorizontal="true"
                         android:backgroundTint="@color/colorPrimaryDark"
                         android:text="@string/submit" />
-
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -409,7 +405,6 @@
                         android:layout_below="@id/q4"
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-
                         <EditText
                             android:id="@+id/enter_q4"
                             android:layout_width="match_parent"
@@ -421,16 +416,14 @@
 
                     </com.google.android.material.textfield.TextInputLayout>
 
-
                     <com.google.android.material.button.MaterialButton
-                        android:id="@+id/Submit_4"
+                        android:id="@+id/submit_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/input"
                         android:layout_centerHorizontal="true"
                         android:backgroundTint="@color/colorPrimaryDark"
                         android:text="@string/submit" />
-
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -534,7 +527,7 @@
                     </RadioGroup>
 
                     <com.google.android.material.button.MaterialButton
-                        android:id="@+id/Submit_5"
+                        android:id="@+id/submit_5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/radioGroup3"
@@ -547,7 +540,7 @@
         </LinearLayout>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/Finish"
+            android:id="@+id/finish"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_below="@+id/q5_header"
